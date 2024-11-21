@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 2rem 0;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+.services {
+    background: #eaeaea;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1 1 calc(33% - 1rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+.service-item p {
+    margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
